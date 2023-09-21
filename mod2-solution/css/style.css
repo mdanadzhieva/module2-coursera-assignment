@@ -1,8 +1,40 @@
+/* BASE STYLES */
+
 * {
     box-sizing: border-box;
+    font-family: monospace;
 }
 
 h1 {
     text-align: center;
     margin-top: 30px;
 }
+
+div > h3 {
+    border: 2px solid black;
+    width: 10%;
+    height: 25px;
+    text-align: center;
+}
+
+#chicken {
+    background-color: #FFAAA6;
+}
+
+#beef {
+    background-color: #A52A2A;
+    color: white;
+}
+
+#sushi {
+    background-color: #DEB887;
+}
+
+/* Simple Responsive Framework */
+
+.row {
+    width: 100%;
+}
+
+/* DESKTOP VIEW (LARGE DEVICES) */
+
